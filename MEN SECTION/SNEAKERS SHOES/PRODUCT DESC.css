@@ -1,0 +1,248 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+
+
+/*part pertama dari web */
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #cfcfcf;
+    padding: 2px;
+}
+header h1 {/*atur posisi logo dan nama website */
+    padding: 2px;
+    margin:0px;
+}
+.left-content { /*logo dan nama*/
+    font-family: 'league spartan',sans-serif;
+    font-size: medium;
+    margin-top: 1px;
+}
+.right-content {/*about help signin*/
+    font-family:'glaciar indifference',sans-serif;
+    font-size:small;
+    font-weight: 300;
+    margin-top: 1px;
+    color:black;
+}
+h1 a {/*about help signin */
+    color :black;
+    text-decoration:none;
+    margin-right:7px;
+}
+header h1.right-content a:hover{/*muncul garis di about help signin bila hover */
+    text-decoration:underline;
+}
+h1 img {/*gambar*/
+    float:none;
+    margin-bottom: -4px;
+}
+.star {/*gambar*/
+    padding-bottom: 2px;
+}
+
+
+
+
+/*part kedua dari web*/
+.menu1{
+
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    justify-content: space-between;
+    
+    
+}
+div a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+div a:hover {
+    text-decoration: underline;
+}
+
+.HomeScreen {
+    width:100%;
+    height:100%;
+    z-index: 1;
+    font-size:20px; 
+    font-weight:lighter;
+    text-align: center;
+    padding-left: 15px;
+}
+.bodoh {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:20px ;
+    font-size: 20px;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 2;
+    margin-top: -5px;
+}
+.bodoh input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 200px;
+}
+.search-button {
+    padding: 8px;
+    border: none;
+    background: #cfcfcf;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.search-button i {
+    font-size: 16px;
+}
+div span{
+    font-weight:5;
+    margin: 0 10px;
+}
+
+
+/*bagian untuk barisan gambar*/
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cfcfcf; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+}
+
+.menu2 {    
+    padding-top: 50px;
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    padding-left: 150px;
+}
+
+.gambargambar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gambargambar .mainimage {
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.secimage {
+    display: flex;
+    gap: 10px;
+}
+
+.secimage img {
+    width: 142px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+
+/*bagian untuk text*/
+
+.detailproduk {
+    margin-left: 100px;
+}
+
+.detailproduk h1{
+    font-size : 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detailproduk .tagline {
+    font-size :20px;
+    margin :10px 0 ;
+    font-weight : 500;
+    text-align : center
+}
+
+.detailproduk .description {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.detailproduk h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.spec {
+    display: flex;
+}
+
+.SpecContent {
+    flex: 1; /* Distribute space equally among all items */
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center; /* Center align text */
+}
+
+
+
+.product-options {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-options .option {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-options .option label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.product-options select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.product-options .bookmark {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+

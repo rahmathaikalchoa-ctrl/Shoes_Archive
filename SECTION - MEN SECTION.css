@@ -1,0 +1,172 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+/*part pertama dari web */
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #cfcfcf;
+    padding: 2px;
+}
+header h1 {/*atur posisi logo dan nama website */
+    padding: 2px;
+    margin:0px;
+}
+.left-content { /*logo dan nama*/
+    font-family: 'league spartan',sans-serif;
+    font-size: medium;
+    margin-top: 1px;
+}
+.right-content {/*about help signin*/
+    font-family:'glaciar indifference',sans-serif;
+    font-size:small;
+    font-weight: 300;
+    margin-top: 1px;
+    color:black;
+}
+h1 a {/*about help signin */
+    color :black;
+    text-decoration:none;
+    margin-right:7px;
+}
+header h1.right-content a:hover{/*muncul garis di about help signin bila hover */
+    text-decoration:underline;
+}
+h1 img {/*gambar*/
+    float:none;
+    margin-bottom: -4px;
+}
+.star {/*gambar*/
+    padding-bottom: 2px;
+}
+
+/*part kedua dari web*/
+.menu1{
+
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    justify-content: space-between;
+    font-size: 25PX;
+    
+}
+div a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+div a:hover {
+    text-decoration: underline;
+}
+
+.bodoh {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:20px ;
+    font-size: 20px;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 2;
+    margin-top: -5px;
+}
+.bodoh input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 200px;
+}
+.search-button {
+    padding: 8px;
+    border: none;
+    background: #cfcfcf;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.search-button i {
+    font-size: 16px;
+}
+div span{
+    font-weight:5;
+    margin: 0 10px;
+}
+/*part ketiga dari web (Bariasan Menu)*/
+
+.MenuRow {
+    margin-top: 20px;
+    font-size:25px; 
+    font-weight:lighter;
+    margin-right: 20px;
+    text-align: center; 
+    font-family:'codec pro',sans-serif; 
+}
+
+.TDesc {
+    text-align: center  ;
+    margin-top: 25px;
+    font-weight:lighter;
+    font-size:17px;
+    font-family:'glaciar indifference',sans-serif;
+}
+
+
+
+
+
+/*part keempaat dari web (Bariasan Gambar)*/
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cfcfcf; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+}
+
+
+.image-row1 {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    margin-top: 30px;
+}
+
+.image-row2 {
+    display: flex; 
+    justify-content: space-around;  
+    flex-wrap: wrap; 
+}
+
+.Top-Search1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    flex: 1 0 20%; 
+}
+
+.Top-Search1 img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.image-caption {
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: #333; 
+}

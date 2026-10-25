@@ -1,0 +1,159 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+
+/*part pertama dari web */
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #cfcfcf;
+    padding: 2px;
+}
+header h1 {/*atur posisi logo dan nama website */
+    padding: 2px;
+    margin:0px;
+}
+.left-content { /*logo dan nama*/
+    font-family: 'league spartan',sans-serif;
+    font-size: medium;
+    margin-top: 1px;
+}
+.right-content {/*about help signin*/
+    font-family:'glaciar indifference',sans-serif;
+    font-size:small;
+    font-weight: 300;
+    margin-top: 1px;
+    color:black;
+}
+h1 a {/*about help signin */
+    color :black;
+    text-decoration:none;
+    margin-right:7px;
+}
+header h1.right-content a:hover{/*muncul garis di about help signin bila hover */
+    text-decoration:underline;
+}
+h1 img {/*gambar*/
+    float:none;
+    margin-bottom: -4px;
+}
+.star {/*gambar*/
+    padding-bottom: 2px;
+}
+
+.menu1{
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    justify-content: space-between;
+}
+
+div a{
+    display: inline;
+    color: black;
+    text-decoration: none;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+div a:hover {
+    text-decoration: underline;
+}
+div a:visited{
+    color: purple;
+}
+.HomeScreen {
+    width:100%;
+    height:100%;
+    z-index: 1;
+    font-size:20px; 
+    font-weight:lighter;
+    text-align: center;
+    padding-left: 15px;
+}
+
+/*part 2 dari web*/
+.bodoh {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:20px ;
+    font-size: 20px;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 2;
+    margin-top: -5px;
+    
+}
+.bodoh input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 200px;
+}
+.search-button {
+    padding: 8px;
+    border: none;
+    background: #cfcfcf;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.search-button i {
+    font-size: 16px;
+}
+div span{
+    font-weight:5;
+    margin: 0 10px;
+    
+}
+
+/*part 3 dari web*/
+
+.P1{
+    text-align: center;
+    font-family:'codec pro',sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    padding-top: 40px;
+
+}
+
+.P2{
+    text-align: center;
+    font-family:'codec pro',sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    padding-top: 40px;
+
+}
+
+.P3{
+    text-align: center;
+    font-family:'codec pro',sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    padding-top: 40px;
+
+}
+
+.P4{
+    text-align: center;
+    font-family:'codec pro',sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    padding-top: 40px;
+
+}
+
+.DESC1{
+    padding-top: 10px;
+    font-family:'codec pro',sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+    
+}

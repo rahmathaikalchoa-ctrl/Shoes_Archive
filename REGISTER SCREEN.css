@@ -1,0 +1,108 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #cfcfcf;
+    padding: 2px;
+}
+
+header h1 {/*atur posisi logo dan nama website */
+    padding: 2px;
+    margin:0px;
+}
+.left-content { /*logo dan nama*/
+    font-family: 'league spartan',sans-serif;
+    font-size: medium;
+    margin-top: 1px;
+}
+
+
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px 80px;
+    border-radius: 80px;
+    box-shadow: 0 0 5px rgba(0,0,0,1.0);
+    font-family:'codec pro',sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'codec pro',sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'codec pro',sans-serif;
+    font-weight: lighter;
+}
+
+input[type="text"],
+input[type="JenisKelamin"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0,0,0,1.0);
+    box-sizing: border-box;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'codec pro',sans-serif;
+}
+
+input[type="radio"] {
+    align-content: center;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    filter: grayscale();
+    
+}
+
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0,0,0,1.0);
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]{
+    margin-top: 10px;
+}
+
+
+input[type="submit"] {
+    margin-top: 15px;
+    margin-left: 70px;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family:'codec pro',sans-serif;
+    
+    
+}
+input[type="submit"]:hover {
+    background-color: #000000;
+    align-content: center;
+}
